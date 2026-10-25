@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MPPTSolarIndex — Solar MPPT Charge Controller Amps, Voc String & Wire Calculator (2026)</title>
+  <meta name="description" content="Calculate exact MPPT solar charge controller amperage (12V/24V/48V), NEC 690.7 cold-weather Voc string limits, and copper wire gauge for Victron SmartSolar, Renogy Rover, EPEVER, and off-grid solar arrays.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/mppt-charge-index/">
+  <link rel="alternate" type="application/rss+xml" title="MPPTSolarIndex RSS Feed" href="https://hanifsalman11.github.io/mppt-charge-index/rss.xml">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
+  <header class="border-b border-slate-800 bg-slate-900/80 sticky top-0 z-30 backdrop-blur">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <div class="text-lg font-black text-white flex items-center gap-2">
+        <span class="bg-amber-500 text-slate-950 px-2 py-0.5 rounded font-black">MPPT</span>SolarIndex
+      </div>
+      <a href="https://www.amazon.com/s?k=MPPT%2BSolar%2BCharge%2BController%2BVictron%2BRenogy%2B60A%2B100A%2BLiFePO4&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop MPPT Charge Controllers & Solar Kits on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-12 flex-1 w-full">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight">Solar MPPT Charge Controller, Voc String & Wire Database</h1>
+      <p class="text-slate-400 mt-3 text-base sm:text-lg">Select your MPPT controller model or solar panel wattage below to calculate 12V/24V/48V charging amps, freezing-weather series $V_{oc}$ limits, and NEC 690 wire/breaker sizes.</p>
+      <div class="mt-6">
+        <input id="filterInput" type="text" placeholder="Search MPPT model or wattage (e.g. Victron 100/50, Renogy 60A, 800W Solar Array, 1200W, EPEVER...)" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-amber-500">
+      </div>
+    </div>
+
+    <div id="mpptGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <a href="victron-smartsolar-mppt-15035-150v-35a-mppt-voc-wire-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-amber-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-amber-500 text-slate-950 px-2.5 py-0.5 rounded">150V / 35A MPPT</span>
+            <span class="text-xs text-slate-400">1,000W @ 24V</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition">Victron SmartSolar MPPT 150/35 (150V 35A)</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact MPPT charge current (33.9A @ 24V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 6 AWG Tinned Marine Copper cable for Victron SmartSolar MPPT 150/35 (150V 35A).</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-amber-400">Calculate MPPT Amps & Cold Voc →</span>
+        </a>
+        <a href="victron-smartsolar-mppt-10030-100v-30a-mppt-voc-wire-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-amber-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-amber-500 text-slate-950 px-2.5 py-0.5 rounded">100V / 30A MPPT</span>
+            <span class="text-xs text-slate-400">400W @ 12V</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition">Victron SmartSolar MPPT 100/30 (100V 30A)</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact MPPT charge current (27.0A @ 12V), NEC 690.7 cold-weather Voc limit (84.7V STC / 100V Max), and 10 AWG / 8 AWG Tinned Copper cable for Victron SmartSolar MPPT 100/30 (100V 30A).</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-amber-400">Calculate MPPT Amps & Cold Voc →</span>
+        </a>
+        <a href="victron-smartsolar-mppt-10050-100v-50a-mppt-voc-wire-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-amber-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-amber-500 text-slate-950 px-2.5 py-0.5 rounded">100V / 50A MPPT</span>
+            <span class="text-xs text-slate-400">700W @ 12V</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition">Victron SmartSolar MPPT 100/50 (100V 50A)</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact MPPT charge current (47.3A @ 12V), NEC 690.7 cold-weather Voc limit (84.7V STC / 100V Max), and 6 AWG Tinned Marine Copper cable for Victron SmartSolar MPPT 100/50 (100V 50A).</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-amber-400">Calculate MPPT Amps & Cold Voc →</span>
+        </a></div>
+  </main>
+
+  <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500">
+    <p>© 2026 MPPTSolarIndex. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const filterInput = document.getElementById('filterInput');
+    const cards = Array.from(document.getElementById('mpptGrid').children);
+    filterInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      cards.forEach(c => {
+        c.style.display = c.textContent.toLowerCase().includes(q) ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
