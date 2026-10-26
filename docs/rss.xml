@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/mppt-charge-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Victron SmartSolar MPPT 250/100 (250V 100A) MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-250100-250v-100a-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-250100-250v-100a-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (98.4A @ 48V), NEC 690.7 cold-weather Voc limit (211.9V STC / 250V Max), and 2 AWG or 1/0 AWG Pure Copper cable for Victron SmartSolar MPPT 250/100 (250V 100A).</description>
+    </item>
+    <item>
+      <title>Victron SmartSolar MPPT 150/100 (150V 100A) MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-150100-150v-100a-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-150100-150v-100a-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (95.0A @ 24V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 2 AWG or 1/0 AWG Pure Copper cable for Victron SmartSolar MPPT 150/100 (150V 100A).</description>
+    </item>
+    <item>
+      <title>Victron SmartSolar MPPT 150/60 Tr (150V 60A) MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-15060-tr-150v-60a-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-15060-tr-150v-60a-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (54.3A @ 24V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Victron SmartSolar MPPT 150/60 Tr (150V 60A).</description>
+    </item>
+    <item>
       <title>Victron SmartSolar MPPT 150/35 (150V 35A) MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-15035-150v-35a-mppt-voc-wire-calculator.html</link>
       <guid>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-15035-150v-35a-mppt-voc-wire-calculator.html</guid>
