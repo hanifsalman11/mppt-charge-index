@@ -97,5 +97,38 @@
     "max_pv_v": 150,
     "mppt_a": 100,
     "date": "2026-10-26"
+  },
+  {
+    "controller_name": "EPEVER Tracer 4210AN 40A MPPT Charge Controller",
+    "slug": "epever-tracer-4210an-40a-mppt-charge-controller-mppt-voc-wire-calculator",
+    "title": "EPEVER Tracer 4210AN 40A MPPT Charge Controller MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (35.2A @ 12V), NEC 690.7 cold-weather Voc limit (84.7V STC / 100V Max), and 6 AWG Tinned Marine Copper cable for EPEVER Tracer 4210AN 40A MPPT Charge Controller.",
+    "array_w": 520,
+    "batt_v": 12,
+    "max_pv_v": 100,
+    "mppt_a": 40,
+    "date": "2026-10-26"
+  },
+  {
+    "controller_name": "EPEVER Tracer 6415AN 60A 150V MPPT Controller",
+    "slug": "epever-tracer-6415an-60a-150v-mppt-controller-mppt-voc-wire-calculator",
+    "title": "EPEVER Tracer 6415AN 60A 150V MPPT Controller MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (54.3A @ 24V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for EPEVER Tracer 6415AN 60A 150V MPPT Controller.",
+    "array_w": 1600,
+    "batt_v": 24,
+    "max_pv_v": 150,
+    "mppt_a": 60,
+    "date": "2026-10-26"
+  },
+  {
+    "controller_name": "EPEVER Tracer 10420AN 100A 200V MPPT Controller",
+    "slug": "epever-tracer-10420an-100a-200v-mppt-controller-mppt-voc-wire-calculator",
+    "title": "EPEVER Tracer 10420AN 100A 200V MPPT Controller MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (84.8A @ 48V), NEC 690.7 cold-weather Voc limit (169.5V STC / 200V Max), and 2 AWG or 1/0 AWG Pure Copper cable for EPEVER Tracer 10420AN 100A 200V MPPT Controller.",
+    "array_w": 5000,
+    "batt_v": 48,
+    "max_pv_v": 200,
+    "mppt_a": 100,
+    "date": "2026-10-26"
   }
 ]
