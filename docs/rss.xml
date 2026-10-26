@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/mppt-charge-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Renogy Rover 100 Amp High-Voltage MPPT Controller MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/renogy-rover-100-amp-high-voltage-mppt-controller-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/renogy-rover-100-amp-high-voltage-mppt-controller-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (87.9A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 2 AWG or 1/0 AWG Pure Copper cable for Renogy Rover 100 Amp High-Voltage MPPT Controller.</description>
+    </item>
+    <item>
+      <title>Renogy Rover Li 60 Amp 12V/24V/36V/48V MPPT MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/renogy-rover-li-60-amp-12v24v36v48v-mppt-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/renogy-rover-li-60-amp-12v24v36v48v-mppt-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Renogy Rover Li 60 Amp 12V/24V/36V/48V MPPT.</description>
+    </item>
+    <item>
+      <title>Renogy Rover Li 40 Amp MPPT Charge Controller MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/renogy-rover-li-40-amp-mppt-charge-controller-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/renogy-rover-li-40-amp-mppt-charge-controller-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (35.2A @ 12V), NEC 690.7 cold-weather Voc limit (84.7V STC / 100V Max), and 6 AWG Tinned Marine Copper cable for Renogy Rover Li 40 Amp MPPT Charge Controller.</description>
+    </item>
+    <item>
       <title>Victron SmartSolar MPPT 250/100 (250V 100A) MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-250100-250v-100a-mppt-voc-wire-calculator.html</link>
       <guid>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-250100-250v-100a-mppt-voc-wire-calculator.html</guid>
