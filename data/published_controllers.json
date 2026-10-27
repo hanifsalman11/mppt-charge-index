@@ -130,5 +130,38 @@
     "max_pv_v": 200,
     "mppt_a": 100,
     "date": "2026-10-26"
+  },
+  {
+    "controller_name": "Victron BlueSolar MPPT 75/15 (75V 15A) Setup",
+    "slug": "victron-bluesolar-mppt-7515-75v-15a-setup-mppt-voc-wire-calculator",
+    "title": "Victron BlueSolar MPPT 75/15 (75V 15A) Setup MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (14.9A @ 12V), NEC 690.7 cold-weather Voc limit (63.6V STC / 75V Max), and 10 AWG / 8 AWG Tinned Copper cable for Victron BlueSolar MPPT 75/15 (75V 15A) Setup.",
+    "array_w": 220,
+    "batt_v": 12,
+    "max_pv_v": 75,
+    "mppt_a": 15,
+    "date": "2026-10-27"
+  },
+  {
+    "controller_name": "BougeRV 40A MPPT Solar Charge Controller (12V/24V)",
+    "slug": "bougerv-40a-mppt-solar-charge-controller-12v24v-mppt-voc-wire-calculator",
+    "title": "BougeRV 40A MPPT Solar Charge Controller (12V/24V) MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (37.2A @ 12V), NEC 690.7 cold-weather Voc limit (84.7V STC / 100V Max), and 6 AWG Tinned Marine Copper cable for BougeRV 40A MPPT Solar Charge Controller (12V/24V).",
+    "array_w": 550,
+    "batt_v": 12,
+    "max_pv_v": 100,
+    "mppt_a": 40,
+    "date": "2026-10-27"
+  },
+  {
+    "controller_name": "BougeRV 60A MPPT Negative-Ground Controller",
+    "slug": "bougerv-60a-mppt-negative-ground-controller-mppt-voc-wire-calculator",
+    "title": "BougeRV 60A MPPT Negative-Ground Controller MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for BougeRV 60A MPPT Negative-Ground Controller.",
+    "array_w": 800,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 60,
+    "date": "2026-10-27"
   }
 ]

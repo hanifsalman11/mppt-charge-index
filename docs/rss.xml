@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/mppt-charge-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>BougeRV 60A MPPT Negative-Ground Controller MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/bougerv-60a-mppt-negative-ground-controller-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/bougerv-60a-mppt-negative-ground-controller-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for BougeRV 60A MPPT Negative-Ground Controller.</description>
+    </item>
+    <item>
+      <title>BougeRV 40A MPPT Solar Charge Controller (12V/24V) MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/bougerv-40a-mppt-solar-charge-controller-12v24v-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/bougerv-40a-mppt-solar-charge-controller-12v24v-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (37.2A @ 12V), NEC 690.7 cold-weather Voc limit (84.7V STC / 100V Max), and 6 AWG Tinned Marine Copper cable for BougeRV 40A MPPT Solar Charge Controller (12V/24V).</description>
+    </item>
+    <item>
+      <title>Victron BlueSolar MPPT 75/15 (75V 15A) Setup MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/victron-bluesolar-mppt-7515-75v-15a-setup-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/victron-bluesolar-mppt-7515-75v-15a-setup-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (14.9A @ 12V), NEC 690.7 cold-weather Voc limit (63.6V STC / 75V Max), and 10 AWG / 8 AWG Tinned Copper cable for Victron BlueSolar MPPT 75/15 (75V 15A) Setup.</description>
+    </item>
+    <item>
       <title>EPEVER Tracer 10420AN 100A 200V MPPT Controller MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/mppt-charge-index/epever-tracer-10420an-100a-200v-mppt-controller-mppt-voc-wire-calculator.html</link>
       <guid>https://hanifsalman11.github.io/mppt-charge-index/epever-tracer-10420an-100a-200v-mppt-controller-mppt-voc-wire-calculator.html</guid>
