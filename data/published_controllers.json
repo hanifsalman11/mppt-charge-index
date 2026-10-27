@@ -229,5 +229,38 @@
     "max_pv_v": 100,
     "mppt_a": 30,
     "date": "2026-10-27"
+  },
+  {
+    "controller_name": "600W Solar Array (3x 200W) 12V Camper MPPT Sizing",
+    "slug": "600w-solar-array-3x-200w-12v-camper-mppt-sizing-mppt-voc-wire-calculator",
+    "title": "600W Solar Array (3x 200W) 12V Camper MPPT Sizing MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (40.6A @ 12V), NEC 690.7 cold-weather Voc limit (84.7V STC / 100V Max), and 6 AWG Tinned Marine Copper cable for 600W Solar Array (3x 200W) 12V Camper MPPT Sizing.",
+    "array_w": 600,
+    "batt_v": 12,
+    "max_pv_v": 100,
+    "mppt_a": 50,
+    "date": "2026-10-27"
+  },
+  {
+    "controller_name": "800W Solar Array (4x 200W) 12V/24V MPPT Sizing",
+    "slug": "800w-solar-array-4x-200w-12v24v-mppt-sizing-mppt-voc-wire-calculator",
+    "title": "800W Solar Array (4x 200W) 12V/24V MPPT Sizing MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for 800W Solar Array (4x 200W) 12V/24V MPPT Sizing.",
+    "array_w": 800,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 60,
+    "date": "2026-10-27"
+  },
+  {
+    "controller_name": "1000W Solar Array (5x 200W) 24V Cabin MPPT Sizing",
+    "slug": "1000w-solar-array-5x-200w-24v-cabin-mppt-sizing-mppt-voc-wire-calculator",
+    "title": "1000W Solar Array (5x 200W) 24V Cabin MPPT Sizing MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (33.9A @ 24V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 6 AWG Tinned Marine Copper cable for 1000W Solar Array (5x 200W) 24V Cabin MPPT Sizing.",
+    "array_w": 1000,
+    "batt_v": 24,
+    "max_pv_v": 150,
+    "mppt_a": 40,
+    "date": "2026-10-27"
   }
 ]

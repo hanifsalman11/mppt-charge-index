@@ -132,4 +132,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/mppt-charge-index/600w-solar-array-3x-200w-12v-camper-mppt-sizing-mppt-voc-wire-calculator.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/mppt-charge-index/800w-solar-array-4x-200w-12v24v-mppt-sizing-mppt-voc-wire-calculator.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/mppt-charge-index/1000w-solar-array-5x-200w-24v-cabin-mppt-sizing-mppt-voc-wire-calculator.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
