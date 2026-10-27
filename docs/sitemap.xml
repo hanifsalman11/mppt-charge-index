@@ -114,4 +114,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/mppt-charge-index/morningstar-tristar-mppt-60a-150v-controller-mppt-voc-wire-calculator.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/mppt-charge-index/redarc-manager30-bcdc1240d-dual-input-mppt-mppt-voc-wire-calculator.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/mppt-charge-index/400w-solar-array-2x-200w-12v-rv-mppt-sizing-mppt-voc-wire-calculator.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
