@@ -262,5 +262,38 @@
     "max_pv_v": 150,
     "mppt_a": 40,
     "date": "2026-10-27"
+  },
+  {
+    "controller_name": "1200W Solar Array (3x 400W) 24V Off-Grid MPPT Sizing",
+    "slug": "1200w-solar-array-3x-400w-24v-off-grid-mppt-sizing-mppt-voc-wire-calculator",
+    "title": "1200W Solar Array (3x 400W) 24V Off-Grid MPPT Sizing MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (40.7A @ 24V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 6 AWG Tinned Marine Copper cable for 1200W Solar Array (3x 400W) 24V Off-Grid MPPT Sizing.",
+    "array_w": 1200,
+    "batt_v": 24,
+    "max_pv_v": 150,
+    "mppt_a": 50,
+    "date": "2026-10-28"
+  },
+  {
+    "controller_name": "1600W Solar Array (4x 400W) 24V/48V MPPT Sizing",
+    "slug": "1600w-solar-array-4x-400w-24v48v-mppt-sizing-mppt-voc-wire-calculator",
+    "title": "1600W Solar Array (4x 400W) 24V/48V MPPT Sizing MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (54.3A @ 24V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for 1600W Solar Array (4x 400W) 24V/48V MPPT Sizing.",
+    "array_w": 1600,
+    "batt_v": 24,
+    "max_pv_v": 150,
+    "mppt_a": 60,
+    "date": "2026-10-28"
+  },
+  {
+    "controller_name": "2000W Solar Array (5x 400W) 48V Off-Grid MPPT Sizing",
+    "slug": "2000w-solar-array-5x-400w-48v-off-grid-mppt-sizing-mppt-voc-wire-calculator",
+    "title": "2000W Solar Array (5x 400W) 48V Off-Grid MPPT Sizing MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (33.9A @ 48V), NEC 690.7 cold-weather Voc limit (211.9V STC / 250V Max), and 6 AWG Tinned Marine Copper cable for 2000W Solar Array (5x 400W) 48V Off-Grid MPPT Sizing.",
+    "array_w": 2000,
+    "batt_v": 48,
+    "max_pv_v": 250,
+    "mppt_a": 45,
+    "date": "2026-10-28"
   }
 ]
