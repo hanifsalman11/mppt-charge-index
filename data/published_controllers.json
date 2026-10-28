@@ -295,5 +295,38 @@
     "max_pv_v": 250,
     "mppt_a": 45,
     "date": "2026-10-28"
+  },
+  {
+    "controller_name": "2400W Solar Array (6x 400W) 48V Cabin MPPT Sizing",
+    "slug": "2400w-solar-array-6x-400w-48v-cabin-mppt-sizing-mppt-voc-wire-calculator",
+    "title": "2400W Solar Array (6x 400W) 48V Cabin MPPT Sizing MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (40.7A @ 48V), NEC 690.7 cold-weather Voc limit (211.9V STC / 250V Max), and 6 AWG Tinned Marine Copper cable for 2400W Solar Array (6x 400W) 48V Cabin MPPT Sizing.",
+    "array_w": 2400,
+    "batt_v": 48,
+    "max_pv_v": 250,
+    "mppt_a": 50,
+    "date": "2026-10-28"
+  },
+  {
+    "controller_name": "3000W Solar Array (8x 375W) 48V Homestead MPPT",
+    "slug": "3000w-solar-array-8x-375w-48v-homestead-mppt-mppt-voc-wire-calculator",
+    "title": "3000W Solar Array (8x 375W) 48V Homestead MPPT MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (50.9A @ 48V), NEC 690.7 cold-weather Voc limit (211.9V STC / 250V Max), and 4 AWG Tinned Marine Copper cable for 3000W Solar Array (8x 375W) 48V Homestead MPPT.",
+    "array_w": 3000,
+    "batt_v": 48,
+    "max_pv_v": 250,
+    "mppt_a": 65,
+    "date": "2026-10-28"
+  },
+  {
+    "controller_name": "4000W Solar Array (10x 400W) 48V Whole-Cabin MPPT",
+    "slug": "4000w-solar-array-10x-400w-48v-whole-cabin-mppt-mppt-voc-wire-calculator",
+    "title": "4000W Solar Array (10x 400W) 48V Whole-Cabin MPPT MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (67.8A @ 48V), NEC 690.7 cold-weather Voc limit (211.9V STC / 250V Max), and 2 AWG or 1/0 AWG Pure Copper cable for 4000W Solar Array (10x 400W) 48V Whole-Cabin MPPT.",
+    "array_w": 4000,
+    "batt_v": 48,
+    "max_pv_v": 250,
+    "mppt_a": 85,
+    "date": "2026-10-28"
   }
 ]
