@@ -394,5 +394,38 @@
     "max_pv_v": 150,
     "mppt_a": 20,
     "date": "2026-10-29"
+  },
+  {
+    "controller_name": "What  Solar Controller  400W Panel",
+    "slug": "what-solar-controller-400w-panel-mppt-voc-wire-calculator",
+    "title": "What  Solar Controller  400W Panel MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (27.0A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 10 AWG / 8 AWG Tinned Copper cable for What  Solar Controller  400W Panel.",
+    "array_w": 400,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 30,
+    "date": "2026-10-29"
+  },
+  {
+    "controller_name": "What  Solar Controller  300W Panel",
+    "slug": "what-solar-controller-300w-panel-mppt-voc-wire-calculator",
+    "title": "What  Solar Controller  300W Panel MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (20.3A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 10 AWG / 8 AWG Tinned Copper cable for What  Solar Controller  300W Panel.",
+    "array_w": 300,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 20,
+    "date": "2026-10-29"
+  },
+  {
+    "controller_name": "What  Solar Controller  400 Watts",
+    "slug": "what-solar-controller-400-watts-mppt-voc-wire-calculator",
+    "title": "What  Solar Controller  400 Watts MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (27.0A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 10 AWG / 8 AWG Tinned Copper cable for What  Solar Controller  400 Watts.",
+    "array_w": 400,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 30,
+    "date": "2026-10-29"
   }
 ]
