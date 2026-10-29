@@ -427,5 +427,38 @@
     "max_pv_v": 150,
     "mppt_a": 30,
     "date": "2026-10-29"
+  },
+  {
+    "controller_name": "What  Solar Controller  600 Watts",
+    "slug": "what-solar-controller-600-watts-mppt-voc-wire-calculator",
+    "title": "What  Solar Controller  600 Watts MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (40.6A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 6 AWG Tinned Marine Copper cable for What  Solar Controller  600 Watts.",
+    "array_w": 600,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 40,
+    "date": "2026-10-29"
+  },
+  {
+    "controller_name": "Victron Smartsolar Mppt 100/30",
+    "slug": "victron-smartsolar-mppt-10030-mppt-voc-wire-calculator",
+    "title": "Victron Smartsolar Mppt 100/30 MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Victron Smartsolar Mppt 100/30.",
+    "array_w": 800,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 60,
+    "date": "2026-10-29"
+  },
+  {
+    "controller_name": "Victron Smartsolar Mppt 75/15",
+    "slug": "victron-smartsolar-mppt-7515-mppt-voc-wire-calculator",
+    "title": "Victron Smartsolar Mppt 75/15 MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Victron Smartsolar Mppt 75/15.",
+    "array_w": 800,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 60,
+    "date": "2026-10-29"
   }
 ]
