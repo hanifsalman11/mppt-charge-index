@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victron Smartsolar Mppt 150/35 MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+  <meta name="description" content="Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Victron Smartsolar Mppt 150/35.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-15035-mppt-voc-wire-calculator.html">
+  <meta property="og:title" content="Victron Smartsolar Mppt 150/35 MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)">
+  <meta property="og:description" content="Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Victron Smartsolar Mppt 150/35.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-15035-mppt-voc-wire-calculator.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "Victron Smartsolar Mppt 150/35 MPPT Amps & Voc String Calculator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web Browser", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many watts of solar panels can the Victron Smartsolar Mppt 150/35 handle on 12V vs 24V vs 48V?", "acceptedAnswer": {"@type": "Answer", "text": "Because an MPPT controller is rated by output amperage (60A), doubling your battery bank voltage doubles the solar wattage it can process! At 60A, it handles ~840W on a 12V battery, ~1680W on a 24V battery, and up to ~3360W on a 48V battery bank."}}, {"@type": "Question", "name": "Why is there a 127.1V STC limit on a 150V rated MPPT controller?", "acceptedAnswer": {"@type": "Answer", "text": "Solar cells act like semiconductors whose voltage increases by ~0.32% for every 1\u00b0C drop below 25\u00b0C (77\u00b0F). On a freezing -10\u00b0C (14\u00b0F) winter morning, a string rated at 127.1V STC spikes to 150V. Exceeding 150V permanently destroys the MPPT input stage."}}, {"@type": "Question", "name": "Can I over-panel the Victron Smartsolar Mppt 150/35 with more solar watts than its nominal rating?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, you can safely over-panel wattage by 20% to 30% to boost cloudy-day production\u2014 the MPPT will simply clip/limit output current to its 60A ceiling during peak noon sun\u2014PROVIDED you NEVER exceed the 150V cold-weather input voltage limit."}}]}]}</script>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased min-h-screen flex flex-col">
+  <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <a href="index.html" class="text-lg font-black tracking-tight text-white flex items-center gap-2">
+        <span class="bg-amber-500 text-slate-950 px-2 py-0.5 rounded font-black">MPPT</span>SolarIndex
+      </a>
+      <a href="https://www.amazon.com/s?k=MPPT%2BSolar%2BCharge%2BController%2BVictron%2BRenogy%2B60A%2B100A%2BLiFePO4&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop MPPT Charge Controllers & Solar Kits on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 flex-1 w-full">
+    <div class="mb-8">
+      <div class="flex flex-wrap items-center gap-2.5 mb-3">
+        <span class="text-xs font-extrabold uppercase tracking-widest bg-amber-500 text-slate-950 px-3 py-1 rounded-full">150V / 60A MPPT</span>
+        <span class="text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full">800W Array @ 12V (54.1A Charge)</span>
+        <span class="text-xs font-semibold bg-slate-800 text-slate-300 px-3 py-1 rounded-full">Max STC Voc: 127.1V | 4 AWG Tinned Marine Copper</span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">Victron Smartsolar Mppt 150/35 MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</h1>
+      <div class="mt-4 bg-slate-900 border-l-4 border-amber-500 p-4 rounded-r-xl text-sm text-slate-200 leading-relaxed">
+        <strong>NABCEP & NEC Article 690 Verdict:</strong> Pairing a 800W solar array with a 12V LiFePO4 battery bank (14.2V absorption) produces up to 54.1 Amps of DC charging current (~3.06 kWh/day in 4.5 peak sun hours). The Victron Smartsolar Mppt 150/35 (150V / 60A rated) requires keeping total series-string STC Open-Circuit Voltage ($V_{oc}$) below 127.1V so freezing winter mornings (+18% NEC 690.7 cold voltage spike) never exceed the 150V MOSFET ceiling. Wire the battery output using 4 AWG Tinned Marine Copper protected by a 80A DC circuit breaker.
+      </div>
+    </div>
+
+    <!-- INTERACTIVE MPPT AMPS, COLD-WEATHER VOC STRING & WIRE GAUGE CALCULATOR -->
+    <section class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 mb-12 shadow-2xl">
+      <h2 class="text-xl font-extrabold text-white mb-2">Interactive Victron Smartsolar Mppt 150/35 Amps & Cold $V_{oc}$ String Calculator</h2>
+      <p class="text-xs text-slate-400 mb-6">Adjust your total solar array wattage, battery bank voltage (12V/24V/48V), series string $V_{oc}$, and coldest winter temperature to verify MPPT amperage and NEC 690.7 voltage safety.</p>
+
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-5">
+          <div>
+            <div class="flex justify-between text-sm font-medium mb-1.5">
+              <label for="wattsSlider" class="text-slate-300">Total Solar Array Wattage (Watts)</label>
+              <span class="text-amber-400 font-bold"><span id="wattsVal">800</span> Watts</span>
+            </div>
+            <input id="wattsSlider" type="range" min="100" max="5000" step="100" value="800" class="w-full accent-amber-500 cursor-pointer">
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label for="battVoltSelect" class="block text-xs font-medium text-slate-400 mb-1">Battery Bank Voltage</label>
+              <select id="battVoltSelect" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-amber-500">
+                <option value="12" selected>12V LiFePO4 (14.2V Charge)</option>
+                <option value="24" >24V LiFePO4 (28.4V Charge)</option>
+                <option value="48" >48V LiFePO4 (56.8V Charge)</option>
+              </select>
+            </div>
+            <div>
+              <label for="tempSelect" class="block text-xs font-medium text-slate-400 mb-1">Coldest Winter Temp (NEC 690.7)</label>
+              <select id="tempSelect" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-amber-500">
+                <option value="1.08">32°F / 0°C Mild (+8% Voc)</option>
+                <option value="1.14" selected>14°F / -10°C Freezing (+14% Voc)</option>
+                <option value="1.20">-13°F / -25°C Extreme (+20% Voc)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between text-sm font-medium mb-1.5">
+              <label for="vocSlider" class="text-slate-300">Series String Total STC Open-Circuit Voltage ($V_{oc}$)</label>
+              <span class="text-amber-400 font-bold"><span id="vocVal">88</span>V STC</span>
+            </div>
+            <input id="vocSlider" type="range" min="22" max="220" step="2" value="88" class="w-full accent-amber-500 cursor-pointer">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-slate-950 border border-amber-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-amber-400 font-bold">Required MPPT Rating</span>
+            <div class="text-2xl sm:text-3xl font-black text-white mt-1"><span id="ampsOut">60</span> <span class="text-sm font-normal text-slate-400">Amps</span></div>
+            <p id="wireOut" class="text-xs text-amber-400 font-semibold mt-1">4 AWG Tinned Marine Copper (80A Brk)</p>
+          </div>
+
+          <div class="bg-slate-950 border border-emerald-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-emerald-400 font-bold">Cold Peak String $V_{oc}$</span>
+            <div class="text-2xl sm:text-3xl font-black text-emerald-400 mt-1"><span id="coldVocOut">100.3</span> <span class="text-sm font-normal text-slate-400">V</span></div>
+            <p id="vocStatusOut" class="text-xs text-emerald-400 font-semibold mt-1">✅ Safe for 150V MPPT</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 bg-amber-950/40 border border-amber-500/30 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div id="mpptAdviceBanner" class="text-sm text-amber-100 font-medium"></div>
+        <a id="dynamicMpptBtn" href="https://www.amazon.com/s?k=MPPT%2BSolar%2BCharge%2BController%2BVictron%2BRenogy%2B60A%2B100A%2BLiFePO4&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="shrink-0 bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold px-4 py-2.5 rounded-lg text-xs uppercase tracking-wider transition">
+          Shop Matched MPPT Controller on Amazon →
+        </a>
+      </div>
+    </section>
+
+    <!-- 4-CARD HARDWARE BUNDLE -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">Complete Victron Smartsolar Mppt 150/35 Solar, Battery & Breaker Kit</h2>
+        <span class="text-xs text-slate-400">UL-1741 & NEC Article 690 Compliant</span>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-amber-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20 px-2.5 py-0.5 rounded">150V / 60A MPPT</span>
+              <span class="text-sm font-bold text-emerald-400">$119 - $549</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">150V 60-Amp Smart Bluetooth MPPT Solar Charge Controller (12V/24V/48V)</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">☀️ Tracks maximum power point with 98% conversion efficiency and programmable 14.2V LiFePO4 absorption profile.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=150V+60A+MPPT+Solar+Charge+Controller+Victron+Renogy&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-amber-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20 px-2.5 py-0.5 rounded">800W Solar Array</span>
+              <span class="text-sm font-bold text-emerald-400">$159 - $699</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">200W / 400W N-Type Bifacial Monocrystalline Solar Panels (2S2P Series-Parallel String)</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">☀️ Generates ~3.06 kWh daily when wired in 2S2P Series-Parallel to boost early-morning MPPT startup voltage.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=200W+400W+Bifacial+Monocrystalline+Solar+Panel+12V+24V&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-amber-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20 px-2.5 py-0.5 rounded">12V LiFePO4 Bank</span>
+              <span class="text-sm font-bold text-emerald-400">$229 - $899</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">12V 100Ah / 200Ah Deep-Cycle LiFePO4 Battery with Low-Temp Cut-Off BMS</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">☀️ Accepts full 54.1A MPPT charge current at 99% coulombic efficiency without lead-acid voltage sag.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=12V+100Ah+200Ah+LiFePO4+Battery+Built-in+BMS&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-amber-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20 px-2.5 py-0.5 rounded">PV Wire & DC Breakers</span>
+              <span class="text-sm font-bold text-emerald-400">$49 - $139</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">10 AWG Solar PV Wire + 4 AWG Battery Cable & 80A DC Polarized Breaker</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">☀️ Provides NEC 690 rapid PV disconnect and <2% voltage drop between controller terminals and battery busbar.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=10+AWG+Solar+Panel+Wire+MC4+80A+DC+Circuit+Breaker+Disconnect&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div></div>
+    </section>
+
+    <!-- 12V vs 24V vs 48V MPPT CAPACITY MATRIX TABLE -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-4">MPPT Charge Controller Max Solar Wattage by Battery Voltage (12V / 24V / 48V)</h2>
+      <div class="overflow-x-auto bg-slate-900 border border-slate-800 rounded-xl">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-slate-800 bg-slate-950/60 text-slate-400 uppercase text-xs">
+              <th class="py-3.5 px-4">Controller Rating</th>
+              <th class="py-3.5 px-4 text-amber-400">12V Battery Bank Max</th>
+              <th class="py-3.5 px-4 text-emerald-400">24V Battery Bank Max</th>
+              <th class="py-3.5 px-4 text-cyan-400">48V Battery Bank Max</th>
+              <th class="py-3.5 px-4">Battery Cable & Breaker</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">30 Amp MPPT</td>
+          <td class="py-3 px-4 text-amber-400 font-semibold">400W Max (12V)</td>
+          <td class="py-3 px-4 text-emerald-400 font-bold">800W Max (24V)</td>
+          <td class="py-3 px-4 text-cyan-400 font-bold">1,600W Max (48V)</td>
+          <td class="py-3 px-4 text-xs text-slate-300">10 AWG / 8 AWG (40A Breaker)</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">40 Amp MPPT</td>
+          <td class="py-3 px-4 text-amber-400 font-semibold">550W Max (12V)</td>
+          <td class="py-3 px-4 text-emerald-400 font-bold">1,100W Max (24V)</td>
+          <td class="py-3 px-4 text-cyan-400 font-bold">2,200W Max (48V)</td>
+          <td class="py-3 px-4 text-xs text-slate-300">8 AWG Copper (50A Breaker)</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">50 Amp MPPT</td>
+          <td class="py-3 px-4 text-amber-400 font-semibold">700W Max (12V)</td>
+          <td class="py-3 px-4 text-emerald-400 font-bold">1,400W Max (24V)</td>
+          <td class="py-3 px-4 text-cyan-400 font-bold">2,800W Max (48V)</td>
+          <td class="py-3 px-4 text-xs text-slate-300">6 AWG Copper (60A Breaker)</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">60 Amp MPPT</td>
+          <td class="py-3 px-4 text-amber-400 font-semibold">850W Max (12V)</td>
+          <td class="py-3 px-4 text-emerald-400 font-bold">1,700W Max (24V)</td>
+          <td class="py-3 px-4 text-cyan-400 font-bold">3,400W Max (48V)</td>
+          <td class="py-3 px-4 text-xs text-slate-300">6 AWG / 4 AWG (80A Breaker)</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">100 Amp MPPT</td>
+          <td class="py-3 px-4 text-amber-400 font-semibold">1,400W Max (12V)</td>
+          <td class="py-3 px-4 text-emerald-400 font-bold">2,800W Max (24V)</td>
+          <td class="py-3 px-4 text-cyan-400 font-bold">5,800W Max (48V)</td>
+          <td class="py-3 px-4 text-xs text-slate-300">2 AWG Copper (125A Breaker)</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- NEC 690 CHECKLIST -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">NABCEP Solar String & MPPT Wiring Safety Checklist</h2>
+        <span id="mpptBadge" class="text-xs font-bold bg-slate-800 text-amber-400 px-3 py-1 rounded-full">0 / 4 Completed</span>
+      </div>
+      <div class="space-y-3">
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-amber-500 rounded cursor-pointer mppt-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>NEC 690 Step 1:</strong> Never use Operating Voltage ($V_{mp}$) to calculate series string limits! Always multiply panel Open-Circuit Voltage ($V_{oc}$) by the number of panels in series and add an 18% cold-temperature safety buffer (max 127.1V STC for a 150V controller).</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-amber-500 rounded cursor-pointer mppt-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>NEC 690 Step 2:</strong> Connect the 12V battery bank to the MPPT controller FIRST before connecting the solar panels; this allows the microcontroller to auto-detect system voltage and prevents unbuffered PV surge damage.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-amber-500 rounded cursor-pointer mppt-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>NEC 690 Step 3:</strong> Install a 80A DC-rated circuit breaker or Class-T/MRBF fuse on the positive battery cable using 4 AWG Tinned Marine Copper within 7 inches of the battery busbar.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-amber-500 rounded cursor-pointer mppt-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>NEC 690 Step 4:</strong> If wiring 3 or more solar strings in parallel (3P+), install inline 15A or 20A MC4 branch fuses on each string to prevent backfeed current into a shaded or shorted panel.</span>
+        </label></div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-5">Frequently Asked Questions (Victron Smartsolar Mppt 150/35)</h2>
+      <div class="space-y-4"><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>How many watts of solar panels can the Victron Smartsolar Mppt 150/35 handle on 12V vs 24V vs 48V?</h3><p class='text-sm text-slate-300 leading-relaxed'>Because an MPPT controller is rated by output amperage (60A), doubling your battery bank voltage doubles the solar wattage it can process! At 60A, it handles ~840W on a 12V battery, ~1680W on a 24V battery, and up to ~3360W on a 48V battery bank.</p></div><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>Why is there a 127.1V STC limit on a 150V rated MPPT controller?</h3><p class='text-sm text-slate-300 leading-relaxed'>Solar cells act like semiconductors whose voltage increases by ~0.32% for every 1°C drop below 25°C (77°F). On a freezing -10°C (14°F) winter morning, a string rated at 127.1V STC spikes to 150V. Exceeding 150V permanently destroys the MPPT input stage.</p></div><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>Can I over-panel the Victron Smartsolar Mppt 150/35 with more solar watts than its nominal rating?</h3><p class='text-sm text-slate-300 leading-relaxed'>Yes, you can safely over-panel wattage by 20% to 30% to boost cloudy-day production— the MPPT will simply clip/limit output current to its 60A ceiling during peak noon sun—PROVIDED you NEVER exceed the 150V cold-weather input voltage limit.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500 px-4">
+    <p>© 2026 MPPTSolarIndex. Independent Off-Grid Solar & NEC 690 Engineering Database. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const amzDomain = "www.amazon.com";
+    const amzTag = "salmanrevie04-20";
+
+    const wattsSlider = document.getElementById('wattsSlider');
+    const battVoltSelect = document.getElementById('battVoltSelect');
+    const tempSelect = document.getElementById('tempSelect');
+    const vocSlider = document.getElementById('vocSlider');
+    const wattsVal = document.getElementById('wattsVal');
+    const vocVal = document.getElementById('vocVal');
+    const ampsOut = document.getElementById('ampsOut');
+    const wireOut = document.getElementById('wireOut');
+    const coldVocOut = document.getElementById('coldVocOut');
+    const vocStatusOut = document.getElementById('vocStatusOut');
+    const mpptAdviceBanner = document.getElementById('mpptAdviceBanner');
+    const dynamicMpptBtn = document.getElementById('dynamicMpptBtn');
+
+    function recalculateMppt() {
+      const watts = parseInt(wattsSlider.value, 10);
+      const battV = parseInt(battVoltSelect.value, 10);
+      const coldMult = parseFloat(tempSelect.value);
+      const stcVoc = parseInt(vocSlider.value, 10);
+
+      wattsVal.textContent = watts.toLocaleString();
+      vocVal.textContent = stcVoc;
+
+      const chargeV = battV * 1.18;
+      const rawAmps = (watts * 0.96) / chargeV;
+      let stdMpptAmps = 20;
+      if (rawAmps <= 20) stdMpptAmps = 20;
+      else if (rawAmps <= 32) stdMpptAmps = 30;
+      else if (rawAmps <= 42) stdMpptAmps = 40;
+      else if (rawAmps <= 52) stdMpptAmps = 50;
+      else if (rawAmps <= 65) stdMpptAmps = 60;
+      else if (rawAmps <= 85) stdMpptAmps = 80;
+      else stdMpptAmps = 100;
+
+      const brkAmps = Math.ceil((stdMpptAmps * 1.25) / 5) * 5;
+      let awgStr = "6 AWG Copper";
+      if (stdMpptAmps <= 30) awgStr = "10 AWG / 8 AWG";
+      else if (stdMpptAmps <= 50) awgStr = "6 AWG Copper";
+      else if (stdMpptAmps <= 70) awgStr = "4 AWG Copper";
+      else awgStr = "2 AWG Copper";
+
+      const coldVoc = stcVoc * coldMult;
+      let reqVoltTier = 100;
+      if (coldVoc <= 98) reqVoltTier = 100;
+      else if (coldVoc <= 148) reqVoltTier = 150;
+      else reqVoltTier = 250;
+
+      ampsOut.textContent = `${rawAmps.toFixed(1)}`;
+      wireOut.textContent = `Use ${stdMpptAmps}A MPPT | ${awgStr} (${brkAmps}A Brk)`;
+      coldVocOut.textContent = coldVoc.toFixed(1);
+
+      if (coldVoc > 250) {
+        vocStatusOut.textContent = "❌ Danger! Exceeds 250V Limit";
+        vocStatusOut.className = "text-xs text-red-400 font-bold mt-1";
+      } else {
+        vocStatusOut.textContent = `✅ Requires ${reqVoltTier}V+ Rated MPPT`;
+        vocStatusOut.className = "text-xs text-emerald-400 font-semibold mt-1";
+      }
+
+      mpptAdviceBanner.innerHTML = `☀️ <strong>NABCEP Spec:</strong> A ${watts.toLocaleString()}W array on a <strong>${battV}V battery bank</strong> produces <strong>${rawAmps.toFixed(1)}A</strong> and peaks at <strong>${coldVoc.toFixed(1)}V in winter</strong>. Install a <strong>${reqVoltTier}V / ${stdMpptAmps}A Smart MPPT Controller</strong> with <strong>${awgStr} cable</strong>.`;
+      dynamicMpptBtn.href = `https://${amzDomain}/s?k=${reqVoltTier}V+${stdMpptAmps}A+MPPT+Solar+Charge+Controller+Victron+Renogy&tag=${amzTag}`;
+    }
+
+    wattsSlider.addEventListener('input', recalculateMppt);
+    battVoltSelect.addEventListener('change', recalculateMppt);
+    tempSelect.addEventListener('change', recalculateMppt);
+    vocSlider.addEventListener('input', recalculateMppt);
+    recalculateMppt();
+
+    const checks = document.querySelectorAll('.mppt-check');
+    const badge = document.getElementById('mpptBadge');
+    checks.forEach(ch => {
+      ch.addEventListener('change', () => {
+        const done = Array.from(checks).filter(c => c.checked).length;
+        badge.textContent = `${done} / ${checks.length} Completed`;
+      });
+    });
+  </script>
+</body>
+</html>
