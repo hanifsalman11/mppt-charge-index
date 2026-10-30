@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/mppt-charge-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Renogy Rover Mppt Charge Controller MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/renogy-rover-mppt-charge-controller-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/renogy-rover-mppt-charge-controller-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Renogy Rover Mppt Charge Controller.</description>
+    </item>
+    <item>
+      <title>Victron Smartsolar Mppt 150/45 MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-15045-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-15045-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Victron Smartsolar Mppt 150/45.</description>
+    </item>
+    <item>
+      <title>Victron Smartsolar Mppt 150/70 MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-15070-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-15070-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Victron Smartsolar Mppt 150/70.</description>
+    </item>
+    <item>
       <title>Victron Smartsolar Mppt Charge Controller MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-charge-controller-mppt-voc-wire-calculator.html</link>
       <guid>https://hanifsalman11.github.io/mppt-charge-index/victron-smartsolar-mppt-charge-controller-mppt-voc-wire-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/mppt-charge-index/600w-solar-array-3x-200w-12v-camper-mppt-sizing-mppt-voc-wire-calculator.html</link>
       <guid>https://hanifsalman11.github.io/mppt-charge-index/600w-solar-array-3x-200w-12v-camper-mppt-sizing-mppt-voc-wire-calculator.html</guid>
       <description>Calculate exact MPPT charge current (40.6A @ 12V), NEC 690.7 cold-weather Voc limit (84.7V STC / 100V Max), and 6 AWG Tinned Marine Copper cable for 600W Solar Array (3x 200W) 12V Camper MPPT Sizing.</description>
-    </item>
-    <item>
-      <title>400W Solar Array (2x 200W) 12V RV MPPT Sizing MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/mppt-charge-index/400w-solar-array-2x-200w-12v-rv-mppt-sizing-mppt-voc-wire-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/mppt-charge-index/400w-solar-array-2x-200w-12v-rv-mppt-sizing-mppt-voc-wire-calculator.html</guid>
-      <description>Calculate exact MPPT charge current (27.0A @ 12V), NEC 690.7 cold-weather Voc limit (84.7V STC / 100V Max), and 10 AWG / 8 AWG Tinned Copper cable for 400W Solar Array (2x 200W) 12V RV MPPT Sizing.</description>
-    </item>
-    <item>
-      <title>Redarc Manager30 & BCDC1240D Dual-Input MPPT MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/mppt-charge-index/redarc-manager30-bcdc1240d-dual-input-mppt-mppt-voc-wire-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/mppt-charge-index/redarc-manager30-bcdc1240d-dual-input-mppt-mppt-voc-wire-calculator.html</guid>
-      <description>Calculate exact MPPT charge current (33.8A @ 12V), NEC 690.7 cold-weather Voc limit (27.1V STC / 32V Max), and 6 AWG Tinned Marine Copper cable for Redarc Manager30 & BCDC1240D Dual-Input MPPT.</description>
-    </item>
-    <item>
-      <title>Morningstar TriStar MPPT 60A 150V Controller MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/mppt-charge-index/morningstar-tristar-mppt-60a-150v-controller-mppt-voc-wire-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/mppt-charge-index/morningstar-tristar-mppt-60a-150v-controller-mppt-voc-wire-calculator.html</guid>
-      <description>Calculate exact MPPT charge current (54.3A @ 24V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Morningstar TriStar MPPT 60A 150V Controller.</description>
     </item>
   </channel>
 </rss>
