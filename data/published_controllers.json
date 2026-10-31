@@ -559,5 +559,38 @@
     "max_pv_v": 150,
     "mppt_a": 60,
     "date": "2026-10-30"
+  },
+  {
+    "controller_name": "Renogy Rover Mppt",
+    "slug": "renogy-rover-mppt-mppt-voc-wire-calculator",
+    "title": "Renogy Rover Mppt MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Renogy Rover Mppt.",
+    "array_w": 800,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 60,
+    "date": "2026-10-31"
+  },
+  {
+    "controller_name": "Renogy Rover Mppt 40A",
+    "slug": "renogy-rover-mppt-40a-mppt-voc-wire-calculator",
+    "title": "Renogy Rover Mppt 40A MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Renogy Rover Mppt 40A.",
+    "array_w": 800,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 60,
+    "date": "2026-10-31"
+  },
+  {
+    "controller_name": "Renogy Rover Mppt 20A",
+    "slug": "renogy-rover-mppt-20a-mppt-voc-wire-calculator",
+    "title": "Renogy Rover Mppt 20A MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Renogy Rover Mppt 20A.",
+    "array_w": 800,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 60,
+    "date": "2026-10-31"
   }
 ]
