@@ -691,5 +691,16 @@
     "max_pv_v": 150,
     "mppt_a": 60,
     "date": "2026-11-01"
+  },
+  {
+    "controller_name": "Solar Charge Controller Details",
+    "slug": "solar-charge-controller-details-mppt-voc-wire-calculator",
+    "title": "Solar Charge Controller Details MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)",
+    "description": "Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Solar Charge Controller Details.",
+    "array_w": 800,
+    "batt_v": 12,
+    "max_pv_v": 150,
+    "mppt_a": 60,
+    "date": "2026-11-01"
   }
 ]

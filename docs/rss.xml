@@ -7,6 +7,12 @@
     <atom:link href="https://hanifsalman11.github.io/mppt-charge-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Solar Charge Controller Details MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/mppt-charge-index/solar-charge-controller-details-mppt-voc-wire-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/mppt-charge-index/solar-charge-controller-details-mppt-voc-wire-calculator.html</guid>
+      <description>Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for Solar Charge Controller Details.</description>
+    </item>
+    <item>
       <title>Solar Charge Controller Diy MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/mppt-charge-index/solar-charge-controller-diy-mppt-voc-wire-calculator.html</link>
       <guid>https://hanifsalman11.github.io/mppt-charge-index/solar-charge-controller-diy-mppt-voc-wire-calculator.html</guid>
@@ -179,12 +185,6 @@
       <link>https://hanifsalman11.github.io/mppt-charge-index/what-mppt-charge-controller-do-i-need-mppt-voc-wire-calculator.html</link>
       <guid>https://hanifsalman11.github.io/mppt-charge-index/what-mppt-charge-controller-do-i-need-mppt-voc-wire-calculator.html</guid>
       <description>Calculate exact MPPT charge current (54.1A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 4 AWG Tinned Marine Copper cable for What  Mppt Charge Controller Do I Need.</description>
-    </item>
-    <item>
-      <title>400W Solar Panel MPPT Amps, Max Solar Voc & Wire Gauge Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/mppt-charge-index/400w-solar-panel-mppt-voc-wire-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/mppt-charge-index/400w-solar-panel-mppt-voc-wire-calculator.html</guid>
-      <description>Calculate exact MPPT charge current (27.0A @ 12V), NEC 690.7 cold-weather Voc limit (127.1V STC / 150V Max), and 10 AWG / 8 AWG Tinned Copper cable for 400W Solar Panel.</description>
     </item>
   </channel>
 </rss>
